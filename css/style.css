@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 70%;
+}
+.navbar .navbar-nav .nav-link{
+    color: #4f6697;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus{
+    color: #f1602b;
+}
+/* ***** slider section start **** */
+.slider .carousel-inner .carousel-caption h1{
+    font-size: 4rem;
+    padding-bottom: 8rem;
+}
+/* ***** slider section end **** */
+
+/* ******* who we are section start****** */
+.who-we h2{
+    color: #4f6697;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.who-we p{
+    line-height: 1.8rem;
+    color: #b0b0b1;
+}
+/* ******* who we are section end****** */
+
+/* ****** what we do section start ******** */
+.what-we-do {
+    background-color: #f7f8f8;
+}
+.what-we-do .body{
+    background: url('../image/whta-we-are-bg.png') no-repeat bottom right;
+    background-size: 70% 100%;
+
+}
+.what-we-do .body .img {
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.what-we-do .body .img h6{
+    color: #fff;
+    margin-top: 6rem;
+}
+.what-we-do .body .img1{
+    background: url('../image/what-we-do-img1.png') no-repeat;
+    background-size: cover;
+}
+.what-we-do .body .img2{
+    background: url('../image/what-we-do-img2.png') no-repeat;
+    background-size: cover;
+}
+.what-we-do .body .img3{
+    background: url('../image/what-we-do-img3.png') no-repeat;
+    background-size: cover;
+}
+/* ****** what we do section end ******** */
+
+/* ***** our attorneys section start ***** */
+.our-attorneys{
+    background: url('../image/our-atorneys-bg.png') no-repeat center;
+    background-size: cover;
+    padding: 8rem 0 !important;
+}
+.our-attorneys .heading {
+    margin-top: 10rem;
+}
+.our-attorneys .heading p{
+    color: #b0b0b1;
+}
+.our-attorneys .heading a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #f1602b;
+    transition: .8s;
+}
+.our-attorneys .heading a:hover, .our-attorneys .heading a:focus{
+    color: #4f6697;
+}
+.our-attorneys .body .img{
+    position: relative;
+}
+.our-attorneys .body h6{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #fff !important;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+/* ***** our attorneys section end ***** */
+
+/* ***** languages section start ******* */
+.languages h2{
+    color: #4f6697;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.languages .body h4{
+    color: #4f6697;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+.languages .body p{
+    color: #b0b0b1;
+}
+.languages .body a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #f1602b;
+    transition: .8s;
+}
+.languages .body a:hover, .languages .body a:focus{
+    color: #4f6697;
+}
+/* ***** languages section end ******* */
+
+/* ***** contact us section start **** */
+.contact-us{
+    background-color: #28377e;
+}
+.contact-us h2{
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contact-us input {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid;
+    margin: 1rem 0;
+    padding: 1px 0;
+}
+.contact-us a{
+    text-decoration: none;
+    border: none;
+    border-radius: none;
+    padding: 8px 45px !important;
+    color: #fff;
+    background-color: #f1602b;
+    margin-top: 2rem;
+    transition: .8s;
+}
+/* ***** contact us section end **** */
+
+/* ****** footer section start ***** */
+footer{
+    background-color: #0c1234;
+    color: #b0b0b1;
+}
+footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer p span{
+    font-weight: 600;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: .8s;
+}
+/* ****** footer section end ***** */
+
